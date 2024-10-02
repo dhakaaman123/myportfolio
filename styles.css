@@ -1,0 +1,581 @@
+body{
+    margin: 0px;
+}
+
+
+/* ---- BODY HEADER----- */
+
+
+#body-header {
+    height: 65vh;
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    background-attachment: fixed;
+
+}
+
+/* ----- HORIZONTAL LISTS ----- */
+
+
+.horizontal-list {
+    list-style: none;
+    padding-left: 0px;
+   
+
+}
+.horizontal-list li {
+    display:inline-block ;
+    margin: 0px 10px 10px 0px;
+    margin-top: 15px;
+    
+}
+.horizontal-list li a {
+    color:white;
+    text-decoration:none;
+    font-size: 20px;
+    
+}
+.nav-menu li a{
+    transition:color 0.5s , border-bottom 4s;
+}
+.nav-menu li a:hover {
+    border-bottom: 1px solid white;
+    color:lightgrey;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+/* ----- NAME AND SOCIAL ICONS ------ */
+
+#name-social-container{
+    margin-top:20vh;
+    margin-bottom: 5vh;
+}
+
+#my-name {
+    font-size:4rem;
+    letter-spacing:0.1rem;
+    color:white;
+    font-weight: 700;
+    margin-bottom:0.5rem;
+
+}
+.social-container li a{
+    text-decoration: none;
+
+}
+.social-container li a i{
+    padding: 10px;
+    font-size: 20px;
+    width:20px;
+    border-radius:50%;
+    margin-top: 0px;
+
+}
+.social-container li a i:hover{
+    box-shadow: 0px 0px 6px 4px rgba(230, 196,196,0.3 );
+}
+
+
+/* ------ SECTION CLASSES ------ */
+
+section {
+    width:100%;
+    display:flex;
+    
+    flex-direction: column;
+    height:80vh;
+   
+    align-items: center;
+    
+}
+
+section:nth-child(2n) {
+    background-color:beige;
+
+}
+
+section:nth-child(odd-child) {
+    background-color:white;
+}
+
+.section-heading {
+    width: auto;
+    padding: 20px 10px 10px ;
+    margin: 10px auto;
+    font-weight: 400;
+}
+
+.section-heading span {
+    color: #2857a4;
+    display: inline-block;
+    padding-top:10px;
+    margin-right: 0.5rem;
+    font-size: 40px;
+}
+
+
+/* ------ ABOUT SECTION ------ */
+
+#about {
+ height:auto;
+ width:100%;
+ position:relative;
+}
+#my-image {
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+
+  margin-bottom: 0px;s
+}
+#my-image img {
+    height: 150%;
+    width: 150%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 4px lightgray;
+    margin-top: -17vh;
+}
+
+#about-para {
+    font-size: 30px;
+    margin-top: -5vh;
+    word-spacing: 0.5rem;
+    text-align: justify;
+    color: grey;
+    
+}
+.text-highlight{
+    color: #2857a4;
+
+}
+
+/* ------ COMMON MARGIN CLASSES ------ */
+m0 {
+    margin:0;
+}
+.mb75px {
+    margin-bottom: 75px;
+}
+.mb85px{
+    margin-bottom: 85px;
+}
+.mb50px {
+    margin-bottom:50px;
+}
+
+.mb-blue {
+    background-color: #2857a4;
+}
+
+.mb-orange {
+    background-color: orangered;
+}
+.mb-pink {
+    background-color: rgb(47, 206, 118);
+}
+.mb-green {
+    background-color: #93738c;
+}
+
+
+/* ------ PERCENTAGE CLASSES ------ */
+.eithty-five-percent {
+    width: 40%;
+    height: inherit;
+}
+
+.seventy-percent {
+    width:70%;
+    height: inherit;
+}
+
+.ninty-percent {
+    width: 90%;
+    height: inherit;
+}
+
+.fifty-percent {
+    width:50%;
+    height: inherit;
+}
+
+.sixty-percent {
+    width:50% ;
+    height: inherit;
+}
+
+
+
+ /* ----  COMMON COLOR CLASSES ----- */
+
+ .text-highlight{
+    color: #2857a4;
+    font-weight: 600px;
+
+}
+ 
+
+/* ------- SKILL SECTION ------- */
+
+#skills{
+    height: 75vh;
+    
+}
+
+
+.skills-display {
+    width:60%;
+    /* height:100px;
+    border: 2px solid black; */
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.skill-progress {
+     width: 14rem;
+     height:2.8rem;
+     background-color:lightgrey;
+     border-radius: 20px;
+     box-shadow: 1px 1px 2px 1px #b9b9b9 inset;
+     margin:25px;
+     overflow: hidden;
+     
+
+
+
+}
+
+.skill-name span {
+    color: white;
+    font-size: 1.5rem;
+    margin-left:10px;
+    text-align: center;
+    
+
+}
+
+.skill-progress>div {
+    border-radius:20px 0px 0px 20px;
+    box-shadow: 1px 1px 5px 2px #989882;
+
+}
+
+/* ------ Portfolio Sections ------ */
+#portfolio{
+    height:90vh;
+}
+
+#portfolio-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    padding:0 50px;
+    margin-bottom:20px;
+    justify-content: space-around;
+}
+
+.portfolio-image-container {
+    max-width: 300px;
+    overflow: hidden;
+    margin: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.portfolio-image-container img {
+    width: 100%;
+    height: 100%;
+}
+.portfolio-details {
+    transition: 0.5s ease-in-out;
+    position: absolute;
+    height: 100%;
+    top:0;
+    left:0;
+    color:transparent;
+    text-align: center;
+    padding: 10px;
+}
+.portfolio-img-container:hover {
+    box-shadow: 0 0 20px #74ADC8;
+}
+
+.portfolio-image-container:hover .portfolio-details {
+    background-color:  #80808078;
+    color:white
+}
+
+
+/* ----- Contact Form ----- */
+
+#contact {
+    background-color:#0abcf9 ;
+    background-image: linear-gradient(50deg,#2857a4 0%, #403066 75%);
+    color: white;
+    padding-bottom:40px;
+
+}
+
+#contact h1,
+#contact h1 span {
+    color:white;
+}
+
+#contact-form {
+    margin-left: 20%;
+
+}
+#contact-container {
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    
+}
+
+#contact-form input, 
+textarea {
+    max-width: 90%;
+    margin:15px;
+    padding:4px 10px;
+    border: 0px solid transparent;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    width:90%;
+    line-height: 1;
+    font-size: 1.5rem;
+
+}
+
+#contact-form button  {
+    background-color: transparent;
+    font-size: 1.5rem;
+    padding: 5px 10px 5px;
+    color:white;
+    border: 3.5px solid white;
+    margin-top: 5%;
+    margin-bottom:10%;
+    font-family: sans-serif;
+    font-weight: 500;
+    letter-spacing:0.2px;
+    line-height: 1.8;
+    border-radius:2px;
+    margin-left: 30%;
+    
+
+
+}
+
+
+#contact-form button:hover {
+    background: white;
+    color:#13386fe0;
+}
+
+#my-details-container {
+    width: 37%;
+    margin:6%;
+    margin-top: 0%;
+
+}
+#contact-form-container {
+    width: 50%;
+}
+
+#my-details-container p {
+    color:#d9dcdd;
+    font-size: 1.2rem;
+}
+
+.my-details-info-container {
+    margin-bottom: 20px;
+    color:#d9dcdd;
+    font-size: 1.2rem;
+}
+.my-details-info-container i {
+    color:white;
+}
+.text-center{
+    text-align: center;
+}
+#contact .social-icons li a i {
+    font-size: 2rem;
+    margin: 40px 10px 10px;
+    padding: 10px 14px 20px 10px;
+
+
+}
+
+#social-icon {
+    width: 50%;
+    background-color:transparent;
+    margin-left:25% ;
+    height: 100px;
+    margin-top: 0%;
+    
+}    
+
+
+/* ----- Education ----- */
+#education {
+    height: 123vh;
+
+}
+
+.timeline {
+    position:relative;
+    width:85%;
+    
+}
+
+.timeline-box {
+    position:relative;
+    width:40%;
+    margin:5px;
+    left:5%;
+    min-height: 200px;
+    
+
+    
+}
+.timeline-box:nth-child(2n) {
+    left:53%;
+}
+
+.timeline-divider {
+    position:absolute;
+    height:75%;
+    width:0;
+    border:2px dashed #0096fa6b;
+    top:10%;
+    left:50%;
+
+}
+@media screen and (max-width:1000px){
+    .timeline-divider {
+        left:0%;
+
+    }
+    .timeline-box:nth-child(2n) {
+        left:8%;
+    }
+    .timeline-box {
+        position:relative;
+        width:100%;
+        margin:5px;
+        left:5%;
+        min-height: 200px;
+        
+    
+        
+    }
+    .timeline-box:nth-child(2n+1)::after{
+        
+    }
+
+
+}
+
+.timeline-box:nth-child(2n+1)::after {
+    content:'';
+    position:absolute;
+    top:25%;
+    right:-12.7%;
+
+    border-radius: 50%;
+    width: 0.8rem;
+    height:0.8rem;
+    background-color:lightgrey;
+    z-index: 1;
+}
+.timeline-box:nth-child(2n)::after {
+    content:'';
+    position:absolute;
+    top:25%;
+    left:-9%;
+
+    border-radius: 50%;
+    width: 0.8rem;
+    height:0.8rem;
+    background-color:lightgrey;
+    z-index: 1;
+}
+.timeline-traveller {
+    position:sticky;
+    top:25%;
+    transform: rotate(93deg);
+    font-size: 1.8rem;
+    color: darkblue;
+    z-index: 2;
+}
+
+.timeline-logo {
+    position:absolute;
+    width: 70px;
+    overflow:hidden;
+}
+.timeline-logo >img {
+    width: 100%;
+}
+
+.experience-designation {
+    font-size: 1.6rem;
+    margin-left:80px;
+    color: #2857a4;
+    text-align: end;
+    font-weight: bold;
+
+
+}
+
+.experience-duration {
+    color:#9e9b9b;
+    font-weight: 600;
+    color: grey;
+    font-size:1.2rem;
+    text-align: end;
+
+    
+}
+.experience-company-name {
+    font-weight:600;
+    color:#eb822d;
+    font-size: 1.4rem;
+    margin:5px 0 0;
+    text-align: end;
+}
+
+.experience-description {
+    font-size:18px;
+    padding:2px;
+    color:grey;
+    line-height: 20px;
+
+}
+.text-align-justify {
+    text-align: justify;
+    
+}
+
+
+
+
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+
+    
+}
